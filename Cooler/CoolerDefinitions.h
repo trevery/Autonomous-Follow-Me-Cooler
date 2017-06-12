@@ -23,7 +23,7 @@ char auth[] = "blynk-token";
 // You must then add your 'Declination Angle' to the compass, which is the 'Error' of the magnetic field in your location.
 // Find yours here: http://www.magnetic-declination.com/
 // Mine is: 13° 24' E (Positive), which is ~13 Degrees, or (which we need) 0.23 radians
-#define DECLINATION_ANGLE 0.23f
+#define DECLINATION_ANGLE -0.042f
 
 // The offset of the mounting position to true north
 // It would be best to run the /examples/magsensor sketch and compare to the compass on your smartphone
